@@ -1,0 +1,20 @@
+{
+    "links": [
+        {
+            "name": "Catalogue",
+            "href": "#"
+        },
+        {
+            "name": "Fashion",
+            "href": "#"
+        },
+        {
+            "name": "Favourite",
+            "href": "#"
+        },
+        {
+            "name": "Lifestyle",
+            "href": "#"
+        }
+    ]
+}

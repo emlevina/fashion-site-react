@@ -1,0 +1,35 @@
+.colored-line {
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    height: 112rem;
+    transform: rotate(-2deg);
+}
+
+.colored-line--unique {
+    left: -25.5rem;
+    top: 313rem;
+    width: 495rem;
+    background-color: var(--color-yellow);
+}
+
+.colored-line--lets {
+    left: -37rem;
+    top: 75rem;
+    width: 464rem;
+    background-color: var(--color-white);
+}
+
+.colored-line--payday {
+    left: -23.3rem;
+    top: -11.63rem;
+    width: 541rem;
+    height: 130.37rem;
+    background-color: var(--color-white);
+}
+
+@media screen and (max-width: 480px) {
+    .colored-line {
+        display: none;
+    }
+}

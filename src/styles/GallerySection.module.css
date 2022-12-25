@@ -1,0 +1,41 @@
+
+#youngs-favourite.section {
+    margin-bottom: 154rem;
+}
+
+.section {
+    margin-bottom: 181rem;
+    display: flex;
+    flex-direction: column;
+    gap: 111rem;
+}
+
+.header-container {
+    width: fit-content;
+    position: relative;
+}
+
+.header {
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    font-size: 48rem;
+    font-weight: 900;
+    line-height: 48rem;
+    letter-spacing: 0.06em;
+}
+
+.vector {
+    position: absolute;
+    z-index: 1;
+    right: -7rem;
+    bottom: -9rem;
+    width: 186rem;
+}
+
+@media screen and (max-width: 640px) {
+    .section {
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,43 @@
+.logos-carusel {
+    width: 100%;
+    margin-bottom: 69rem;
+    min-height: 186rem;
+    background-color: var(--color-yellow);
+    display: flex;
+}
+
+.wrapper {
+    padding-top: 70rem;
+    margin-bottom: 70rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 185rem;
+    row-gap: 60rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    column-gap: 185rem;
+}
+
+.logo {
+    height: 50rem;
+}
+
+@media screen and (max-width: 640px) {
+    .logos-carusel, .row {
+        gap: 60rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logos-carusel {
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        height: 40rem;
+    }
+}

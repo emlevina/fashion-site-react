@@ -1,0 +1,39 @@
+{
+    "New Arrivals": {
+        "cards": [
+            {
+                "title": "Hoodies & Sweetshirt",
+                "src": "assets/new-arrivals/HoodiesSweetshirt.png",
+                "id": "new-arrivals_1"
+            },
+            {
+                "title": "Coats & Parkas",
+                "src": "assets/new-arrivals/CoatsParkas.png",
+                "id": "new-arrivals_2"
+            },
+            {
+                "title": "Tees & T-Shirt",
+                "src": "assets/new-arrivals/TeesT-Shirt.png",
+                "id": "new-arrivals_3"
+            }
+        ],
+        "gap-class": "gallery--47",
+        "width-class": "card--new-arrivals"
+    },
+    "Young's Favourite": {
+        "cards": [
+            {
+                "title": "Trending on instagram",
+                "src": "assets/youngs-favourite/Trendingoninstagram.png",
+                "id": "youngs-favourite_1"
+            },
+            {
+                "title": "All under $40",
+                "src": "assets/youngs-favourite/AllUnder40.png",
+                "id": "youngs-favourite_2"
+            }
+        ],
+        "gap-class": "gallery--90",
+        "width-class": "card--youngs-favourite"
+    }
+}

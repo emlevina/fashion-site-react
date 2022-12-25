@@ -1,0 +1,92 @@
+
+.section {
+    min-height: 621rem;
+    padding: 140rem 100rem 0;
+    width: 100%;
+    background-color: var(--color-another-yellow);
+    display: flex;
+}
+
+.container {
+    margin: 0 auto;
+    margin-bottom: 100rem;
+    max-width: 1010rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25rem;
+}
+
+.title {
+    font-size: 55rem;
+    line-height: 125%;
+    letter-spacing: 0.03em;
+    color: var(--color-white);
+}
+
+.text {
+    font-size: 32rem;
+    font-weight: 400;
+    line-height: 35rem;
+    letter-spacing: 0.03em;
+    color: var(--color-white);
+    margin-bottom: 12rem;
+}
+
+.form {
+    position: relative;
+}
+
+.input {
+    border: none;
+    border-radius: 10rem;
+    height: 87rem;
+    width: 574rem;
+    font-family: Poppins, sans-serif;
+    font-size: 24rem;
+    font-weight: 400;
+    line-height: 35rem;
+    letter-spacing: 0.03em;
+    text-align: left;
+    padding-left: 21rem;
+}
+
+.input::placeholder {
+    color: var(--color-gray);
+}
+
+.input:focus {
+    outline: none;
+}
+
+.button {
+    position: absolute;
+    width: 161rem;
+    height: 67rem;
+    border-radius: 8rem;
+    right: 10rem;
+    top: 10rem;
+    border: none;
+    font-size: 33rem;
+    font-weight: 500;
+    line-height: 66rem;
+    letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 480px) {
+    .form {
+        width: 100%;
+    }
+
+    .input {
+        width: 100%;
+        text-align: center;
+    }
+
+    .button {
+        position: static;
+        display: inline-block;
+        margin-top: 20rem;
+    }
+}

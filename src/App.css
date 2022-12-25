@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+:root {
+  font-size: 3%;
+  --color-lightgray: rgba(244, 246, 245, 1);
+  --color-yellow: rgba(235, 217, 107, 1);
+  --color-another-yellow: rgba(229, 198, 67, 1);
+  --color-dark-gray: rgba(142, 142, 142, 1);
+  --color-gray: rgba(127, 127, 127, 1);
+  --color-another-gray: rgba(217, 217, 217, 1);
+  --color-white: white;
+  --color-black: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+*, *::after, *::before {
+  margin:inherit;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 24rem;
+}
+
+h1 {
+  font-size: 55rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 48rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+ul {
+  font-size: 24rem;
+}
+
+p {
+  font-size: 32rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: calc(100vw - 200rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+      width: calc(100vw - 100rem);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 1200px) {
+  :root {
+      font-size: 4.5%;
   }
-  to {
-    transform: rotate(360deg);
+} 
+
+
+@media (min-width: 1400px) {
+  :root {
+      font-size: 5%;
   }
-}
+} 
+
+
+@media (min-width: 1600px) {
+  :root {
+      font-size: 5.5%;
+  }
+} 
+
+@media (min-width: 1920px) {
+  :root {
+      font-size: 6.25%;
+  }
+} 
+
+

@@ -1,0 +1,66 @@
+
+.card {
+    flex: 1 1 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 20rem;
+}
+
+.card--new-arrivals {
+    min-width: 400rem;
+    max-width: 486rem;
+}
+
+.card--youngs-favourite {
+    min-width: 600rem;
+    max-width: 835rem;
+}
+
+.image {
+    width: 100%;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+}
+
+.under-card-image {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 20rem
+}
+
+.title {
+    font-size: 32rem;
+    font-weight: 500;
+    line-height: 50rem;
+    letter-spacing: -0.04em;
+}
+
+.subtitle {
+    font-size: 24rem;
+    font-weight: 500;
+    line-height: 36rem;
+    letter-spacing: -0.04em;
+    color: var(--color-gray)
+}
+
+.arrow {
+    width: 32rem;
+}
+
+@media screen and (max-width: 480px) {
+    .card--new-arrivals {
+        min-width: 300rem;
+        max-width: 400rem;
+    }
+
+    .card--youngs-favourite {
+        min-width: 400rem;
+        max-width: 500rem;
+    }
+}

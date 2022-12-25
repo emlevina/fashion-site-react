@@ -1,0 +1,12 @@
+.button {
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover,
+.button:active {
+    background-color: var(--color-yellow);
+}

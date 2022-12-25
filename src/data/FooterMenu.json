@@ -1,0 +1,59 @@
+{
+    "sections": [
+        {
+            "header": "Company",
+            "links": [
+                {
+                    "name": "About",
+                    "href": "#"
+                },
+                {
+                    "name": "Contact Us",
+                    "href": "#"
+                },
+                {
+                    "name": "Support",
+                    "href": "#"
+                },
+                {
+                    "name": "Careers",
+                    "href": "#"
+                }
+            ]
+        },
+        {
+            "header": "Quick Link",
+            "links": [
+                {
+                    "name": "Share Location",
+                    "href": "#"
+                },
+                {
+                    "name": "Orders Tracking",
+                    "href": "#"
+                },
+                {
+                    "name": "Size Guide",
+                    "href": "#"
+                },
+                {
+                    "name": "FAQs",
+                    "href": "#"
+                }
+            ]
+        },
+        {
+            "header": "Legal",
+            "links": [
+                {
+                    "name": "Terms & Conditions",
+                    "href": "#"
+                },
+                {
+                    "name": "Privacy Policy",
+                    "href": "#"
+                }
+            ]
+        }
+    ]
+}

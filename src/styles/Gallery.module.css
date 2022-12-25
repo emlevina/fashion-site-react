@@ -1,0 +1,19 @@
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gallery--90 {
+    gap: 90rem;
+}
+
+.gallery--47 {
+    gap: 47rem;
+}
+
+@media screen and (max-width: 640px) {
+    .gallery {
+        justify-content: center;
+    }
+
+}

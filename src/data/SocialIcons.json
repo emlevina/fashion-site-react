@@ -1,0 +1,24 @@
+{
+    "icons": [
+        {
+            "alt": "Facebook page",
+            "src": "assets/footer-new/facebook.png",
+            "href": "#"
+        },
+        {
+            "alt": "Instagram page",
+            "src": "assets/footer-new/instagram.png",
+            "href": "#"
+        },
+        {
+            "alt": "LinkedIn page",
+            "src": "assets/footer-new/linkedin.png",
+            "href": "#"
+        },
+        {
+            "alt": "Twitter page",
+            "src": "assets/footer-new/twitter.png",
+            "href": "#"
+        }
+    ]
+}

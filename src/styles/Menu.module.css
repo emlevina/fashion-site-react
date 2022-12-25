@@ -1,0 +1,43 @@
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 54rem;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    column-gap: 65rem;
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22rem;
+    letter-spacing: 0.02em;
+}
+
+.link:hover {
+    color: var(--color-yellow);
+}
+
+.button {
+    width: 134rem;
+    height: 62rem;
+    line-height: 62rem;
+    border-radius: 7rem;
+    font-size: 24rem;
+    letter-spacing: -0.03em;
+}
+
+@media screen and (max-width: 480px) {
+    .menu {
+        gap: 25rem
+    }
+
+    .link {
+        font-size: 18rem;
+    }
+}

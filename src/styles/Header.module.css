@@ -1,0 +1,13 @@
+.header {
+    margin-top: 46rem;
+    margin-bottom: 56rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 40rem;
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        justify-content: center;
+    }
+}

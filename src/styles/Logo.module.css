@@ -1,0 +1,21 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 13rem;
+}
+
+.img {
+    height: 29rem;
+}
+
+.text {
+    font-size: 40rem;
+    letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 640px) {
+    .text {
+        display: none;
+    }
+}
+

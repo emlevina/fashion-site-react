@@ -1,0 +1,21 @@
+.section {
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    row-gap: 21rem;
+}
+
+.section-header {
+    color: var(--color-another-gray);
+}
+
+.link {
+    color: var(--color-dark-gray);
+}
+
+.link > a{
+    text-decoration: none;
+    color: var(--color-dark-gray);
+}
